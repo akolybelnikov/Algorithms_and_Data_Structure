@@ -4,7 +4,7 @@ class Stack {
   }
 
   push(record) {
-    this.data.push(record);
+    this.data.unshift(record);
   }
 
   pop() {
